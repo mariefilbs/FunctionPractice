@@ -80,7 +80,17 @@ function findEven (numbers) {
 // ---------------------------
 // 4. Find odd numbers
 // ---------------------------
+var numbers = [1,12,4,18,9,7,11,3,101,5,6];
 
+function findOdd(numbers) {
+  var allOdd = [];
+  for (var i = 0; i < numbers.length; i++) {
+    if(numbers[i] % 2 == !0) {
+      allOdd.push(numbers[i]);
+      console.log(numbers[i]);
+    }
+  } return allOdd;
+}
 
 
 // ---------------------------
