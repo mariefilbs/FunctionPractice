@@ -96,14 +96,38 @@ function findOdd(numbers) {
 // ---------------------------
 // 5. Find words that contain `is`
 // ---------------------------
+var strings = ['this','is','a','collection','of','words'];
+
+function findIs(strings) {
+  var containsIs = [];
+  for (var i = 0; i < strings.length; i++) {
+    if(strings[i].includes ("is")) {
+      containsIs.push(strings[i].includes);
+      /*console.log(strings[i]);*/
+    }
+  } return containsIs;
+}
+
 
 
 
 // ---------------------------
 // 5. Join Both Arrays Together
 // ---------------------------
+var numbers = [1,12,4,18,9,7,11,3,101,5,6];
+var strings = ['this','is','a','collection','of','words'];
 
+function joinArrays (numbers, strings) {
+  var newArray = [];
 
+  for(var i = 0; i < numbers.length; i++) {
+    newArray.push(numbers[i]);
+  }
+  for(var i = 0; i < strings.length; i++) {
+    newArray.push(strings[i]);
+}
+  return newArray;
+}
 
 
 // ---------------------------
