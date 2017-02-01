@@ -33,15 +33,27 @@ function largest(numbers) {
 // ---------------------------
 // 2. Find longest string
 // ---------------------------
-function longestString(strings) {
-  var newString = strings[0];
-  for (var i = 0; i < strings[i].length; i++) {
-    if (strings[i].length > newString.length) {
-      newString = strings[i]; //udates the longest string
+var strings = ['this','is','a','collection','of','words'];
+
+
+function findLongest (strings) {
+  var longestString = strings[0];
+  /*console.log(longestString);*/
+  for (var i=0; i < strings.length; i++) {
+    /*console.log(strings[4]);*/
+    if(strings[i].length >= longestString.length) {
+      longestString = strings[i];
+      /*console.log(longestString);*/
     }
-  }
-  return newString;
+
+
+  } return longestString;
 }
+
+/*back to index of 0 again, stop the loop and store the new index into the longestString. Print
+out the results of longestString
+*/
+
 
 
 
