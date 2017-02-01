@@ -60,12 +60,27 @@ out the results of longestString
 // ---------------------------
 // 3. Find even numbers
 // ---------------------------
+var numbers = [1,12,4,18,9,7,11,3,101,5,6];
 
+
+function findEven (numbers) {
+  var allEven = [];
+  /*var newNumb = numbers[i]*/
+  for (var i = 0; i < numbers.length; i++) {
+    /*console.log(numbers.length);*/
+    if (numbers[i] % 2 === 0) {
+      allEven.push(numbers[i]);
+      console.log(numbers[i]);
+    }
+  } return allEven;
+
+}
 
 
 // ---------------------------
 // 4. Find odd numbers
 // ---------------------------
+
 
 
 // ---------------------------
