@@ -23,7 +23,7 @@
 // Q1
 // Write a function called `sum` that takes two
 // parameters and returns the sum of those 2 numbers.
-function sum (x,y) {
+function sum (x, y) {
   return x + y;
 }
 
@@ -33,8 +33,14 @@ function sum (x,y) {
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
 function avg (x, y, z) {
-  return ((x + y + z)/3);
+  return (x + y + z)/3;
 }
+
+
+//reworked ^^^ No need for the extra parenthesis, just the (x + y + z)
+//to make it run first.
+  /*return ((x + y + z)/3);
+}*/
 
 
 
@@ -53,12 +59,20 @@ function getLength (string) {
 // parameter is greater than the first. Otherwise
 // the function should return `false`.
 function greaterThan (x, y) {
+  if (x < y) {
+    return x < y;
+  }
+}
+//ran in console and when (7, 6), it returns undefined? ask Brit..
+
+//reworked ^^^ Read the question again more carefully, and also excluded the unneeded else statement.
+/*function greaterThan (x, y) {
   if (x > y) {
     return true;
   } else {
     return false;
   }
-}
+}*/
 
 
 
