@@ -59,11 +59,9 @@ function getLength (string) {
 // parameter is greater than the first. Otherwise
 // the function should return `false`.
 function greaterThan (x, y) {
-  if (x < y) {
-    return x < y;
+  return y > x;
   }
-}
-//ran in console and when (7, 6), it returns undefined? ask Brit..
+
 
 //reworked ^^^ Read the question again more carefully, and also excluded the unneeded else statement.
 /*function greaterThan (x, y) {
