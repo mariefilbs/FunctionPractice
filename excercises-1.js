@@ -19,38 +19,33 @@
 ///////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
 
+//REWORKED THIS ASSIGNMENT FOR BASIC PRACTICE --> check github commits for first submission
 
 // Q1
 // Write a function called `sum` that takes two
 // parameters and returns the sum of those 2 numbers.
+
 function sum (x, y) {
   return x + y;
 }
 
 
-
 // Q2
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
+
 function avg (x, y, z) {
-  return (x + y + z)/3;
+  return ((x + y + z)\3);
 }
-
-
-//reworked ^^^ No need for the extra parenthesis, just the (x + y + z)
-//to make it run first.
-  /*return ((x + y + z)/3);
-}*/
-
 
 
 // Q3
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
-function getLength (string) {
+
+function getLength (string){
   return string.length;
 }
-
 
 
 // Q4
@@ -58,20 +53,10 @@ function getLength (string) {
 // two parameters and returns `true` if the second
 // parameter is greater than the first. Otherwise
 // the function should return `false`.
+
 function greaterThan (x, y) {
   return y > x;
-  }
-
-
-//reworked ^^^ Read the question again more carefully, and also excluded the unneeded else statement.
-/*function greaterThan (x, y) {
-  if (x > y) {
-    return true;
-  } else {
-    return false;
-  }
-}*/
-
+}
 
 
 // Q5
@@ -81,7 +66,7 @@ function greaterThan (x, y) {
 // is the parameter that was passed in.
 
 function greet (name) {
-  return ("Hello " + name);
+  return "Hello, " + name + "!";
 }
 
 
@@ -95,12 +80,7 @@ function greet (name) {
 // strings. For example:
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
-function madLib (a, b, c, d) {
-  return ("The " + a + " " + "brown " + b + " " + c + " " + "over the " + d);
+
+function madLib (one, two, three, four) {
+  return  "The " + one + " " + two + " " + three + " jumps over the " + four;
 }
-
-
-
-
-///////////////////////////////////////////////////////
-///////////////////////////////////////////////////////
